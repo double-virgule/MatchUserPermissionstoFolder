@@ -1,5 +1,6 @@
 ############################
 Function Get-ADUserNestedGroups { #This function gets ALL groups a user is a member of, through all chains, and displays it as one lump result
+# Taken from http://blog.tofte-it.dk/powershell-get-all-nested-groups-for-a-user-in-active-directory/
     Param
     (
         [string]$DistinguishedName,
